@@ -1,0 +1,17 @@
+[
+    {
+        "id": "weaponAttack_ranged_offhand_allAdjacent_shadow|MAX_RANGE|DAMAGE|STUNT_DAMAGE|SHRED|PIERCE",
+        "parameters": [
+            { "replace": "MAX_RANGE" },
+            { "replace": "DAMAGE" },
+            { "replace": "STUNT_DAMAGE" },
+            { "replace": "SHRED" },
+            { "replace": "PIERCE" }
+        ],
+        "effects": [
+            "weaponAttack_ranged_offhand_allAdjacent_shadow|MAX_RANGE|DAMAGE|STUNT_DAMAGE|SHRED|PIERCE",
+            "defaultMoveFeedbackRange|MAX_RANGE|weaponAttack_ranged_offhand_allAdjacent_shadow"
+        ],
+        "importance": -1
+    }
+]

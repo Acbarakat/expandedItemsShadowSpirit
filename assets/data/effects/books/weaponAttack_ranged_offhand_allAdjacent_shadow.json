@@ -1,0 +1,66 @@
+{
+	"id": "weaponAttack_ranged_offhand_allAdjacent_shadow|MAX_RANGE|DAMAGE|STUNT_DAMAGE|SHRED|PIERCE",
+	"info": {
+		"dataVersion": 1,
+		"sourceFile": "books/weaponAttack_ranged_offhand_allAdjacent_shadow",
+		"modId": "expandedItemsShadowSpirit",
+		"author": "thatbearkat",
+		"aiPriority": "3000",
+		"tags": [ "ranged", "book" ]
+	},
+	"type": "ABILITY",
+	"verb": "ATTACK",
+	"ability": {
+		"icon": "research",
+		"priority": "85",
+		"cooldown": "oncePerTurn",
+		"abilityElementType": "shadow"
+	},
+	"targets": [
+		{
+			"template": "SELF",
+			"cost": { "class": "ActionPoints" },
+			"missionFeedback": { "orientTo": "target" }
+		},
+		{
+			"template": "ADJACENT_UNIT",
+			"choose": "ANY",
+			"aspects": [ "HOSTILE_TARGET", "alive" ],
+			"minRange": "1",
+			"range": "MAX_RANGE",
+			"relativeToLocation": "targetTile"
+		}
+	],
+	"outcomes": [
+		{
+			"class": "AttackRoll",
+			"attackAnimationType": "melee",
+			"minimumBlockTime": "300",
+			"particles": [
+				{ "script": "shockwave", "setPosition": "self", "delay": -0.25 }
+			],
+			"defenseRollTags": [ "melee" ],
+			"attackStrength": "actionRoll(self.RANGE_ACCURACY)",
+			"applyCover": true,
+			"onHit": {
+				"class": "Damage",
+				"amount": "attacker.POTENCY+DAMAGE_EXPRESSION",
+				"flankingBonusDamage": "0",
+				"shred": "SHRED_EXPRESSION",
+				"pierce": "PIERCE",
+				"overrideStuntDamage": "STUNT_DAMAGE",
+				"onStunt": {
+					"class": "BranchAbility",
+					"target": "self",
+					"targetRole": "defender",
+					"branchAbility": "stuntEffect_shadow"
+				}
+			},
+			"onHitCover": {
+				"class": "Damage",
+				"amount": "max(1,((attacker.POTENCY+DAMAGE_EXPRESSION)-2))",
+				"shred": "1"
+			}
+		}
+	]
+}
