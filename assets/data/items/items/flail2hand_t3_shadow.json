@@ -28,10 +28,11 @@
         "voiceMace"
     ],
     "cost": [
-        "2 wood",
-        "4 hide",
-        "18 ingot",
-        "6 magic"
+        "14 ingot",
+        "4 heartwood",
+        "3 hide",
+        "4 fabric",
+        "7 magic"
     ],
     "layers": [
         {
