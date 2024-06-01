@@ -1,0 +1,32 @@
+{
+"id": "staffStarseed_t2",
+"canBeCrafted": false,
+"onlySpawnById": true,
+"generateName": false,
+"tier": 2,
+"category": "staff",
+"uniqueCategory": "staffStarseed",
+"element": "fire",
+"slots": [ "MAIN_HAND", "OFF_HAND" ],
+"aspects": [ "weapon", "melee", "weaponDamage:5", "weaponWield:2", "weaponMaxRange:2.1" ],
+"ownerAspects": [
+	"spellDamageBonus|3|itemTypeDescriptiveNameUpper.staff",
+	"staffBlockBonus|15",
+	"attackRange|0|2.1|melee",
+	"weaponAttack_basicMelee",
+	"voiceStaff",
+	"starseed_fallingStars"
+],
+"cost": [ "7 wood", "2 hide", "1 fabric", "12 magic" ],
+"layers": [
+	{
+		"name": "item_staffStarseed_t2B_untinted",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "lowBack",
+		"gripOffset": { "x": 170, "y": 370 }
+	}
+]
+}

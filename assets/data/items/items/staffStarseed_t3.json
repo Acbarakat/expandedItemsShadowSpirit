@@ -1,0 +1,43 @@
+{
+"id": "staffStarseed_t3",
+"canBeCrafted": false,
+"onlySpawnById": true,
+"generateName": false,
+"tier": 3,
+"category": "staff",
+"uniqueCategory": "staffStarseed",
+"element": "fire",
+"slots": [ "MAIN_HAND", "OFF_HAND" ],
+"aspects": [ "weapon", "melee", "weaponDamage:6", "weaponWield:2", "weaponMaxRange:2.1" ],
+"ownerAspects": [
+	"spellDamageBonus|4|itemTypeDescriptiveNameUpper.staff",
+	"staffBlockBonus|20",
+	"attackRange|0|2.1|melee",
+	"weaponAttack_basicMelee",
+	"voiceStaff",
+	"starseed_fallingStars"
+],
+"cost": [ "13 wood", "3 hide", "1 ingot", "1 fabric", "22 magic" ],
+"layers": [
+	{
+		"name": "item_staffStarseed_t3A_tint1_90",
+		"tint": "primary",
+		"tintAmount": 0.6,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "lowBack",
+		"gripOffset": { "x": 170, "y": 390 }
+	},
+	{
+		"name": "item_staffStarseed2_t3_untinted",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "lowBack",
+		"gripOffset": { "x": 170, "y": 390 }
+	}
+]
+}

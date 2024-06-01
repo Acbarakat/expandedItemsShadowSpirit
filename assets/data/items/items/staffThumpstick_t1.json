@@ -1,0 +1,37 @@
+{
+"id": "staffThumpstick_t1",
+"canBeCrafted": false,
+"onlySpawnById": true,
+"generateName": false,
+"tier": 1,
+"category": "staff",
+"uniqueCategory": "thumpstick",
+"slots": [ "MAIN_HAND", "OFF_HAND" ],
+"aspects": [
+	"weapon",
+	"melee",
+	"weaponDamage:4",
+	"weaponWield:2",
+	"weaponMaxRange:2.1",
+	"weaponKnockback:2.1"
+],
+"ownerAspects": [
+	"staffBlockBonus|15",
+	"attackRange|0|2.1|melee",
+	"weaponAttack_knockbackMelee",
+	"voiceStaff"
+],
+"cost": [ "2 wood", "2 magic" ],
+"layers": [
+	{
+		"name": "item_staffThumpstick_t1",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 1,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "midBack",
+		"gripOffset": { "x": 170, "y": 410 }
+	}
+]
+}

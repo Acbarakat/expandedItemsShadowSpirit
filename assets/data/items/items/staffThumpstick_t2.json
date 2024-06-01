@@ -1,0 +1,48 @@
+{
+"id": "staffThumpstick_t2",
+"canBeCrafted": false,
+"onlySpawnById": true,
+"generateName": false,
+"tier": 2,
+"category": "staff",
+"uniqueCategory": "thumpstick",
+"slots": [ "MAIN_HAND", "OFF_HAND" ],
+"aspects": [
+	"weapon",
+	"melee",
+	"weaponDamage:5",
+	"weaponWield:2",
+	"weaponMaxRange:2.1",
+	"weaponKnockback:2.1"
+],
+"ownerAspects": [
+	"staffBlockBonus|15",
+	"attackRange|0|2.1|melee",
+	"weaponAttack_knockbackMelee",
+	"voiceStaff"
+],
+"cost": [ "7 wood", "1 hide", "1 fabric", "5 magic" ],
+"layers": [
+	{
+		"name": "item_staffThumpstick_t2A_untinted",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "midBack",
+		"gripOffset": { "x": 170, "y": 410 }
+	},
+	{
+		"name": "item_staffThumpstick_t2B_tint1",
+		"tint": "primary",
+		"tintAmount": 0.7,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 1,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "midBack",
+		"gripOffset": { "x": 170, "y": 410 }
+	}
+]
+}

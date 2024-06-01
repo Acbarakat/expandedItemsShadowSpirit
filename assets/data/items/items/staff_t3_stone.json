@@ -1,0 +1,58 @@
+{
+"id": "staff_t3_stone",
+"tier": 3,
+"category": "staff",
+"element": "stone",
+"slots": [ "MAIN_HAND", "OFF_HAND" ],
+"aspects": [
+	"weapon",
+	"melee",
+	"weaponDamage:6",
+	"weaponWield:2",
+	"weaponMaxRange:2.1",
+	"stuntDamage:3"
+],
+"ownerAspects": [
+	"spellDamageBonus|4|itemTypeDescriptiveNameUpper.staff",
+	"staffBlockBonus|20",
+	"attackRange|0|2.1|melee",
+	"weaponAttack_basicMelee",
+	"voiceStaff"
+],
+"cost": [ "13 wood", "1 hide", "3 ingot", "1 fabric", "10 magic" ],
+"layers": [
+	{
+		"name": "item_staff_t3_stoneA_tint1_50",
+		"tint": "primary",
+		"tintAmount": 0.5,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 170, "y": 350 }
+	},
+	{
+		"name": "item_staff_t3_stoneB_tint2_40",
+		"tint": "secondary",
+		"tintAmount": 0.4,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 1,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 170, "y": 350 }
+	},
+	{
+		"name": "item_staff_t3_stoneC_untinted",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 2,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 170, "y": 350 }
+	}
+]
+}

@@ -1,0 +1,41 @@
+{
+"id": "staffAstrolabe_t2",
+"canBeCrafted": false,
+"generateName": false,
+"tier": 2,
+"category": "staff",
+"uniqueCategory": "staffAstrolabe",
+"slots": [ "MAIN_HAND", "OFF_HAND" ],
+"aspects": [ "weapon", "melee", "weaponDamage:5", "weaponWield:2", "weaponMaxRange:2.1" ],
+"ownerAspects": [
+	"spellDamageBonus|3|itemTypeDescriptiveNameUpper.staff",
+	"staffBlockBonus|15",
+	"attackRange|0|2.1|melee",
+	"weaponAttack_basicMelee",
+	"voiceStaff",
+	"traverse"
+],
+"cost": [ "7 ingot", "1 hide", "1 fabric", "6 magic" ],
+"layers": [
+	{
+		"name": "item_staffAstrolabe_t2A_tint2",
+		"tint": "secondary",
+		"tintAmount": 0.6,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "lowBack",
+		"gripOffset": { "x": 170, "y": 370 }
+	},
+	{
+		"name": "item_staffAstrolabe_t2B_untinted",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "lowBack",
+		"gripOffset": { "x": 170, "y": 370 }
+	}
+]
+}

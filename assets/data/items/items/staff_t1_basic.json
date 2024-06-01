@@ -1,0 +1,39 @@
+{
+"id": "staff_t1_basic",
+"generateName": false,
+"weight": 1.0,
+"tier": 1,
+"category": "staff",
+"slots": [ "MAIN_HAND", "OFF_HAND" ],
+"aspects": [ "weapon", "melee", "weaponDamage:4", "weaponWield:2", "weaponMaxRange:2.1" ],
+"ownerAspects": [
+	"spellDamageBonus|2|itemTypeDescriptiveNameUpper.staff",
+	"staffBlockBonus|15",
+	"attackRange|0|2.1|melee",
+	"weaponAttack_basicMelee",
+	"voiceStaff"
+],
+"cost": [ "2 wood", "2 magic" ],
+"layers": [
+	{
+		"name": "item_staff_t1_basicA_tint1_100",
+		"tint": "primary",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 170, "y": 350 }
+	},
+	{
+		"name": "item_staff_t1_basicB_untinted",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 1,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 170, "y": 350 }
+	}
+]
+}

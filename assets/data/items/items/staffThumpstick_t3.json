@@ -1,0 +1,59 @@
+{
+"id": "staffThumpstick_t3",
+"canBeCrafted": false,
+"onlySpawnById": true,
+"generateName": false,
+"tier": 3,
+"category": "staff",
+"uniqueCategory": "thumpstick",
+"slots": [ "MAIN_HAND", "OFF_HAND" ],
+"aspects": [
+	"weapon",
+	"melee",
+	"weaponDamage:6",
+	"weaponWield:2",
+	"weaponMaxRange:2.1",
+	"weaponKnockback:3.1"
+],
+"ownerAspects": [
+	"staffBlockBonus|20",
+	"attackRange|0|2.1|melee",
+	"weaponAttack_knockbackMelee",
+	"voiceStaff"
+],
+"cost": [ "13 wood", "1 hide", "1 ingot", "1 fabric", "9 magic" ],
+"layers": [
+	{
+		"name": "item_staffThumpstick_t3A_untinted",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "midBack",
+		"gripOffset": { "x": 170, "y": 400 }
+	},
+	{
+		"name": "item_staffThumpstick_t3B_tint1",
+		"tint": "primary",
+		"tintAmount": 0.7,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 1,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "midBack",
+		"gripOffset": { "x": 170, "y": 400 }
+	},
+	{
+		"name": "item_staffThumpstick_t3C_tint2",
+		"tint": "secondary",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 2,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "midBack",
+		"gripOffset": { "x": 170, "y": 400 }
+	}
+]
+}

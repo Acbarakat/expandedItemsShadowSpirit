@@ -1,0 +1,56 @@
+{
+"id": "staff_t3_water",
+"tier": 3,
+"category": "staff",
+"element": "water",
+"slots": [ "MAIN_HAND", "OFF_HAND" ],
+"aspects": [
+	"weapon",
+	"melee",
+	"weaponDamage:6",
+	"weaponWield:2",
+	"weaponMaxRange:2.1",
+	"stuntDamage:1"
+],
+"ownerAspects": [
+	"spellDamageBonus|4|itemTypeDescriptiveNameUpper.staff",
+	"staffBlockBonus|20",
+	"attackRange|0|2.1|melee",
+	"weaponAttack_basicMelee",
+	"voiceStaff"
+],
+"cost": [ "13 wood", "1 hide", "1 ingot", "3 fabric", "10 magic" ],
+"layers": [
+	{
+		"name": "item_staff_t3_waterA_tint1_100",
+		"tint": "primary",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 1,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 170, "y": 350 }
+	},
+	{
+		"name": "item_staff_t3_waterB_untinted",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 170, "y": 350 }
+	},
+	{
+		"name": "item_staff_t3_waterC_tint2_100",
+		"tint": "secondary",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 2,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 170, "y": 350 }
+	}
+]
+}
