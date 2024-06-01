@@ -1,0 +1,96 @@
+{
+    "modId": "expandedItemsShadowSpirit",
+    "id": "flail1hand_t2_basic",
+    "weight": 1.0,
+    "generateName": false,
+    "tier": 2,
+    "category": "wand",
+    "tracks": [
+        "flail1hand_basic"
+    ],
+    "slots": [
+        "MAIN_HAND"
+    ],
+    "aspects": [
+        "weapon",
+        "melee",
+        "weaponDamage:5",
+        "weaponWield:2",
+        "weaponMaxRange:1.6",
+        "aspect_bonusStat_accuracyMelee|-10|Flail"
+    ],
+    "ownerAspects": [
+        "attackRange|0|1.6|melee",
+        "weaponAttack_melee_2adjacent",
+        "aspect_bonusStat_spellDamage|3|Flail",
+        "voiceMace"
+    ],
+    "cost": [
+        "8 ingot",
+        "2 heartwood",
+        "2 hide"
+    ],
+    "layers": [
+        {
+            "name": "item_flail1_t2_basicA_tint2_65",
+            "tint": "secondary",
+            "tintAmount": 0.5,
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "ifOwnerAspect": "ATTACHMENTS_workingRightArm"
+        },
+        {
+            "name": "item_flail1_t2_basicC_untinted",
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "depth": 2,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "ifOwnerAspect": "ATTACHMENTS_workingRightArm"
+        },
+        {
+            "name": "item_flail1_t2_basicA_tint2_65",
+            "tint": "secondary",
+            "tintAmount": 0.5,
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "rotation": 26,
+            "ifNoOwnerAspect": "ATTACHMENTS_workingRightArm"
+        },
+        {
+            "name": "item_flail1_t2_basicC_untinted",
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "depth": 2,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "rotation": 26,
+            "ifNoOwnerAspect": "ATTACHMENTS_workingRightArm"
+        }
+    ],
+    "subCategory": "rapier"
+}

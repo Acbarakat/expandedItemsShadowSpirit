@@ -1,0 +1,31 @@
+{
+"id": "offhand_book_shadow_t3",
+"canBeCrafted": true,
+"onlySpawnById": false,
+"weight": 1.0,
+"tier": 3,
+"category": "offHand",
+"tracks": [ "book_shadow" ],
+"slots": [ "OFF_HAND" ],
+"aspects": [ "SEI_offhand" ],
+"ownerAspects": [
+	"aspect_offhand_book_stuntReduction|0.5",
+	"SEI_offhand2",
+	"aspect_bonusStat_spellDamage|2|Book",
+	"weaponAttack_ranged_offhand_allAdjacent_shadow|1.6|3|3|0|0"
+],
+"cost": [ "3 wood", "3 hide", "3 fabric", "3 ingots", "9 magic"],
+"layers": [
+	{
+		"name": "item_book_shadow_t3",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "offHand",
+		"grasp": "book",
+		"inactiveGrip": "hide",
+		"gripOffset": { "x": 24, "y": 108 },
+		"rotation": -10
+	}
+]
+}

@@ -1,0 +1,129 @@
+{
+    "modId": "expandedItemsShadowSpirit",
+    "id": "flail1hand_t2_water",
+    "tier": 2,
+    "category": "wand",
+    "element": "water",
+    "tracks": [
+        "flail1hand_basic"
+    ],
+    "slots": [
+        "MAIN_HAND"
+    ],
+    "aspects": [
+        "weapon",
+        "melee",
+        "weaponDamage:5",
+        "weaponWield:2",
+        "weaponMaxRange:1.6",
+        "stuntDamage:1",
+        "aspect_bonusStat_accuracyMelee|-10|Flail"
+    ],
+    "ownerAspects": [
+        "attackRange|0|1.6|melee",
+        "weaponAttack_melee_2adjacent",
+        "aspect_bonusStat_spellDamage|3|Flail",
+        "voiceMace"
+    ],
+    "cost": [
+        "2 wood",
+        "2 hide",
+        "8 ingot",
+        "1 fabric",
+        "3 magic"
+    ],
+    "layers": [
+        {
+            "name": "item_flail1_t2_waterA_untinted",
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "ifOwnerAspect": "ATTACHMENTS_workingRightArm"
+        },
+        {
+            "name": "item_flail1_t2_waterB_tint2_60",
+            "tint": "secondary",
+            "tintAmount": 0.5,
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "depth": 1,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "ifOwnerAspect": "ATTACHMENTS_workingRightArm"
+        },
+        {
+            "name": "item_flail1_t2_waterC_tint1_100",
+            "tint": "primary",
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "depth": 2,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "ifOwnerAspect": "ATTACHMENTS_workingRightArm"
+        },
+        {
+            "name": "item_flail1_t2_waterA_untinted",
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "rotation": 26,
+            "ifNoOwnerAspect": "ATTACHMENTS_workingRightArm"
+        },
+        {
+            "name": "item_flail1_t2_waterB_tint2_60",
+            "tint": "secondary",
+            "tintAmount": 0.5,
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "depth": 1,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "rotation": 26,
+            "ifNoOwnerAspect": "ATTACHMENTS_workingRightArm"
+        },
+        {
+            "name": "item_flail1_t2_waterC_tint1_100",
+            "tint": "primary",
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "depth": 2,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "rotation": 26,
+            "ifNoOwnerAspect": "ATTACHMENTS_workingRightArm"
+        }
+    ],
+    "subCategory": "rapier"
+}

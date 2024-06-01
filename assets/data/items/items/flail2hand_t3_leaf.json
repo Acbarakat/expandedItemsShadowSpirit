@@ -1,0 +1,51 @@
+{
+    "modId": "expandedItemsShadowSpirit",
+    "id": "flail2hand_t3_leaf",
+    "tier": 3,
+    "category": "staff",
+    "subCategory": "twoHandedMace",
+    "element": "leaf",
+    "tracks": [
+        "flail2hand_basic"
+    ],
+    "slots": [
+        "MAIN_HAND",
+        "OFF_HAND"
+    ],
+    "aspects": [
+        "weapon",
+        "melee",
+        "weaponDamage:7",
+        "weaponWield:1",
+        "weaponMaxRange:1.6",
+        "stuntDamage:3",
+        "aspect_bonusStat_accuracyMelee|-10|Flail"
+    ],
+    "ownerAspects": [
+        "attackRange|0|1.6|melee",
+        "weaponAttack_melee_2adjacent",
+        "aspect_bonusStat_spellDamage|4|Flail",
+        "voiceMace"
+    ],
+    "cost": [
+        "4 wood",
+        "2 hide",
+        "18 ingot",
+        "6 magic"
+    ],
+    "layers": [
+        {
+            "name": "item_flail2_t3_leafC_untinted",
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "depth": 2,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 170,
+                "y": 240
+            }
+        }
+    ]
+}

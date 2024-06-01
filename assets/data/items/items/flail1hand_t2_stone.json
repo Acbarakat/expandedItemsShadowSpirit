@@ -1,0 +1,66 @@
+{
+    "modId": "expandedItemsShadowSpirit",
+    "id": "flail1hand_t2_stone",
+    "tier": 2,
+    "category": "wand",
+    "element": "stone",
+    "tracks": [
+        "flail1hand_basic"
+    ],
+    "slots": [
+        "MAIN_HAND"
+    ],
+    "aspects": [
+        "weapon",
+        "melee",
+        "weaponDamage:5",
+        "weaponWield:2",
+        "weaponMaxRange:1.6",
+        "stuntDamage:2",
+        "aspect_bonusStat_accuracyMelee|-10|Flail"
+    ],
+    "ownerAspects": [
+        "attackRange|0|1.6|melee",
+        "weaponAttack_melee_2adjacent",
+        "aspect_bonusStat_spellDamage|3|Flail",
+        "voiceMace"
+    ],
+    "cost": [
+        "2 wood",
+        "2 hide",
+        "9 ingot",
+        "3 magic"
+    ],
+    "layers": [
+        {
+            "name": "item_flail1_t2_stoneB_untinted",
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "depth": 1,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "ifOwnerAspect": "ATTACHMENTS_workingRightArm"
+        },
+        {
+            "name": "item_flail1_t2_stoneB_untinted",
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "depth": 1,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "rotation": 26,
+            "ifNoOwnerAspect": "ATTACHMENTS_workingRightArm"
+        }
+    ],
+    "subCategory": "rapier"
+}
