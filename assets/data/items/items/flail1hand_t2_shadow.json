@@ -34,9 +34,9 @@
     ],
     "layers": [
         {
-            "name": "item_flail1_t2_shadowA_tint2_60",
+            "name": "item_flail1_t2_shadowA_tint2_70",
             "tint": "secondary",
-            "tintAmount": 0.6,
+            "tintAmount": 0.7,
             "scaleX": 0.4,
             "scaleY": 0.4,
             "rigUsage": "rigGeneral",
@@ -49,7 +49,9 @@
             "ifOwnerAspect": "ATTACHMENTS_workingRightArm"
         },
         {
-            "name": "item_flail1_t2_shadowB_untinted",
+            "name": "item_flail1_t2_shadowB_tint1_85",
+            "tint": "primary",
+            "tintAmount": 0.85,
             "scaleX": 0.4,
             "scaleY": 0.4,
             "depth": 1,
@@ -63,9 +65,23 @@
             "ifOwnerAspect": "ATTACHMENTS_workingRightArm"
         },
         {
-            "name": "item_flail1_t2_shadowA_tint2_60",
+            "name": "item_flail1_t2_shadowC_untinted",
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "depth": 2,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "ifOwnerAspect": "ATTACHMENTS_workingRightArm"
+        },
+        {
+            "name": "item_flail1_t2_shadowA_tint2_70",
             "tint": "secondary",
-            "tintAmount": 0.6,
+            "tintAmount": 0.7,
             "scaleX": 0.4,
             "scaleY": 0.4,
             "rigUsage": "rigGeneral",
@@ -79,10 +95,27 @@
             "ifNoOwnerAspect": "ATTACHMENTS_workingRightArm"
         },
         {
-            "name": "item_flail1_t2_shadowB_untinted",
+            "name": "item_flail1_t2_shadowB_tint1_85",
+            "tint": "primary",
+            "tintAmount": 0.85,
             "scaleX": 0.4,
             "scaleY": 0.4,
             "depth": 1,
+            "rigUsage": "rigGeneral",
+            "grip": "mainHand",
+            "inactiveGrip": "highBack",
+            "gripOffset": {
+                "x": 119,
+                "y": 202
+            },
+            "rotation": 26,
+            "ifNoOwnerAspect": "ATTACHMENTS_workingRightArm"
+        },
+        {
+            "name": "item_flail1_t2_shadowC_untinted",
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "depth": 2,
             "rigUsage": "rigGeneral",
             "grip": "mainHand",
             "inactiveGrip": "highBack",
