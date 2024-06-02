@@ -1,0 +1,43 @@
+{
+"id": "spear2hand_t1_shadow",
+"tier": 1,
+"category": "spear",
+"subCategory": "rapier",
+"element": "shadow",
+"tracks": [ "plain" ],
+"slots": [ "MAIN_HAND", "OFF_HAND" ],
+"aspects": [
+	"weapon",
+	"melee",
+	"weaponDamage:6",
+	"weaponWield:2",
+	"weaponMaxRange:2.1",
+	"stuntDamage:1"
+],
+"ownerAspects": [ "attackRange|0|2.1|melee", "weaponAttack_basicMelee", "voiceSpear" ],
+"cost": [ "2 wood", "2 hide", "2 ingot", "2 fabric", "4 magic" ],
+"layers": [
+	{
+		"name": "item_spear2_t1_shadowA_tint1",
+		"tint": "primary",
+		"tintAmount": 0.9,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 170, "y": 350 }
+	},
+	{
+		"name": "item_spear2_t1_shadowB_untinted",
+		"tintAmount": 0.7,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 1,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 170, "y": 350 }
+	}
+]
+}

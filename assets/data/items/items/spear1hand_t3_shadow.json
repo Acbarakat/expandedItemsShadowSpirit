@@ -1,0 +1,70 @@
+{
+"id": "spear1hand_t3_shadow",
+"tier": 3,
+"category": "spear",
+"element": "shadow",
+"tracks": [ "oneHand" ],
+"slots": [ "MAIN_HAND" ],
+"aspects": [
+	"weapon",
+	"melee",
+	"weaponDamage:7",
+	"weaponWield:4",
+	"weaponMaxRange:1.6",
+	"stuntDamage:3"
+],
+"ownerAspects": [
+	"attackRange|0|1.6|melee",
+	"weaponAttack_basicMelee",
+	"voiceSpear",
+	"aspect_spear_riposteWhenDiscovered",
+	"weaponAttack_ranged_spearThrow"
+],
+"cost": [ "13 wood", "3 hide", "4 ingot", "3 fabric", "7 magic" ],
+"layers": [
+	{
+		"name": "item_spear1_t3_shadowA_untinted",
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 119, "y": 202 }
+	},
+	{
+		"name": "item_spear1_t3_shadowB_tint1",
+		"tint": "primary",
+		"tintAmount": 0.6,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 1,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 119, "y": 202 }
+	},
+	{
+		"name": "item_spear1_t3_shadowC_untinted",
+		"tintAmount": 0.9,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 2,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 119, "y": 202 }
+	},
+	{
+		"name": "item_spear1_t3_shadowD_tint2",
+		"tint": "secondary",
+		"tintAmount": 0.9,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"depth": 2,
+		"rigUsage": "rigGeneral",
+		"grip": "mainHand",
+		"inactiveGrip": "highBack",
+		"gripOffset": { "x": 119, "y": 202 }
+	}
+]
+}
